@@ -1,6 +1,6 @@
 body{
     color: greenyellow;
-    background-color: blueviolet;
+    background-color: gray;
     margin: 0 ;
     padding: 0 ;
     display: flex;
@@ -20,5 +20,11 @@ img{
     z-index: -1;
     top: 0;
     left: 0;
-    
+}
+button{position: absolute;
+    width: 50vw;
+    height: 5vh;
+    bottom: 1px;
+    background:linear-gradient(rgb(247, 105, 240), rgb(97, 219, 97)) ; 
+    color:gold;
 }
